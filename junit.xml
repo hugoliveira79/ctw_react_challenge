@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="3" time="17.723">
+  <testsuite name="Hackermaps" errors="0" failures="3" skipped="0" timestamp="2021-06-20T19:25:03" time="13.393" tests="5">
+    <testcase classname="Hackermaps Should render all the locations in the list" name="Hackermaps Should render all the locations in the list" time="0.628">
+    </testcase>
+    <testcase classname="Hackermaps Should have correct buttons for each location" name="Hackermaps Should have correct buttons for each location" time="0.18">
+    </testcase>
+    <testcase classname="Hackermaps Should move the location down on clicking the down button" name="Hackermaps Should move the location down on clicking the down button" time="0.258">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;PIER 39, The Embarcadero, San Francisco, CA, USA&quot;
+Received: &quot;Golden Gate Bridge, San Francisco, CA, USA&quot;
+    at Object.it (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/src/App.test.js:84:82)
+    at Object.asyncJestTest (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:73:41)</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should move the location up on clicking the up button" name="Hackermaps Should move the location up on clicking the up button" time="0.068">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Alcatraz Island, San Francisco, CA, USA&quot;
+Received: &quot;Fisherman&apos;s Wharf, San Francisco, CA, USA&quot;
+    at Object.it (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/src/App.test.js:99:82)
+    at Object.asyncJestTest (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:73:41)</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should be in correct state after a series of actions" name="Hackermaps Should be in correct state after a series of actions" time="0.155">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Lombard St, San Francisco, CA, USA&quot;
+Received: &quot;PIER 39, The Embarcadero, San Francisco, CA, USA&quot;
+    at Object.it (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/src/App.test.js:118:82)
+    at Object.asyncJestTest (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/Hugo/Desktop/0f351954-1e4d-4a16-a3f2-5ea721d8835f/node_modules/jest-jasmine2/build/queueRunner.js:73:41)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
